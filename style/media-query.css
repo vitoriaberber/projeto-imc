@@ -1,0 +1,25 @@
+@media screen and (width <= 850px) {
+    .sessao__container{
+        width: 100%;
+    }
+}
+
+@media screen and (width <= 600px) {
+    .sessao_um {
+        width: 100%;
+    }
+
+    .sessao__container{
+        width: 75%;
+    }
+    
+    .sessao_dois {
+        display: none;
+    }
+}
+
+@media screen and (width <= 420px) {
+    .sessao__container{
+        width: 100%;
+    }
+}

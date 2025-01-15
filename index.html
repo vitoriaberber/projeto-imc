@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media-query.css">
+</head>
+<body>
+    <main class="principal">
+        <section class="principal__sessao sessao_um">
+            <div class="sessao__container">
+                <h1 class="container__titulo"><span class="titulo__sublinhado">Calculadora</span> de IMC</h1>
+                <form class="container__formulario" action="#">
+                    <p class="formulario__paragrafo">
+                        <label for="txt1" class="paragrafo__label">Digite seu peso: </label> 
+                        <input type="number" name="txt1" id="txt1" class="paragrafo__input peso" required> kg.
+                    </p>
+
+                    <p class="formulario__paragrafo">
+                        <label for="txt2" class="paragrafo__label">Digite sua altura: </label> 
+                        <input type="number" name="txt2" id="txt2" class="paragrafo__input altura" required> m.
+                    </p>
+
+                    <div class="container__container" id="div">
+                        <p id="res" class="container__resultado"></p>
+                    </div>
+
+                    <p class="formulario__paragrafo enviar">
+                        <input type="button" value="Enviar" class="paragrafo__btn" id="btn">
+                    </p>
+                </form>
+            </div>
+        </section>
+
+
+        <section class="principal__sessao sessao_dois">
+            <img class="sessao__imagem" src="imagens/fundo.svg" alt="Imagem de um homem fazendo academia">
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
